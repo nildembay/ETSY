@@ -1,0 +1,368 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-19T21:04:21.362Z",
+        "line": 3,
+        "name": "Add to cart",
+        "description": "",
+        "id": "subcategories;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21880299400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to base url",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userGoesToBaseUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242862400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks to sign in button",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userClicksToSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1686033700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks email area and enters valid email adress",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userClicksEmailAreaAndEntersValidEmailAdress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142917800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid password",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userEntersValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178897900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks sign in",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userClicksSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d99.0.4844.74)\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027DESKTOP-CVRR6RD\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [31f481ea385afe84955a6b13bd0ee6a0, sendKeysToElement {id\u003d22e418ad-6bc6-417d-a53c-09c5b0f6ffdc, value\u003d[Ljava.lang.CharSequence;@2accaec2}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\niluf\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60626}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60626/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (31f481ea385afe84955a6b13bd0ee6a0)] -\u003e id: global-enhancements-search-query]\nSession ID: 31f481ea385afe84955a6b13bd0ee6a0\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat com.sun.proxy.$Proxy21.sendKeys(Unknown Source)\r\n\tat stepDefinition.TC02StepDef.clicksSearchTextAreaAndSendsForSearching(TC02StepDef.java:19)\r\n\tat ✽.clicks search text area and sends \"samsung\" for searching(file:///C:/Users/niluf/IdeaProjects/CapstoneProject/src/test/resources/TC06.feature:9)\r\n",
+              "duration": 2745425800,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "clicks search text area and sends \"samsung\" for searching",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samsung\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.TC02StepDef.clicksSearchTextAreaAndSendsForSearching(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user selects first item listed",
+            "match": {
+              "location": "stepDefinition.TC06StepDef.user_selects_first_item_listed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user Verifies that the properties of the selected item are displayed",
+            "match": {
+              "location": "stepDefinition.TC06StepDef.user_verifies_that_the_properties_of_the_selected_item_are_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks add to cart button",
+            "match": {
+              "location": "stepDefinition.TC06StepDef.user_clicks_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "ser confirms that the product is in the cart",
+            "match": {
+              "location": "stepDefinition.TC06StepDef.serConfirmsThatTheProductIsInTheCart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@parallel2"
+          }
+        ]
+      }
+    ],
+    "name": "Subcategories",
+    "description": "",
+    "id": "subcategories",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TC06.feature",
+    "tags": [
+      {
+        "name": "@parallel2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-19T21:04:48.586Z",
+        "line": 3,
+        "name": "Check links are correct",
+        "description": "",
+        "id": "verify-links;check-links-are-correct",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4403474600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to base url",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userGoesToBaseUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26983000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user verifies the title",
+            "match": {
+              "location": "stepDefinition.TC07StepDef.user_verifies_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84087368900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects submenus and checks the correctness of their titles",
+            "match": {
+              "location": "stepDefinition.TC07StepDef.user_selects_submenus_and_checks_the_correctness_of_their_titles()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@parallel2"
+          }
+        ]
+      }
+    ],
+    "name": "Verify links",
+    "description": "",
+    "id": "verify-links",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TC07.feature",
+    "tags": [
+      {
+        "name": "@parallel2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-19T21:06:17.138Z",
+        "line": 3,
+        "name": "user should be able to change region and language settings",
+        "description": "",
+        "id": "location-test;user-should-be-able-to-change-region-and-language-settings",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3885772900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to base url",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userGoesToBaseUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2756419700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks the region settings",
+            "match": {
+              "location": "stepDefinition.TC08StepDef.user_clicks_the_region_settings()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182894700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects region \"Turkey\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Turkey\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.TC08StepDef.user_selects_region(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141920400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects Language \"English (US)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"English (US)\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.TC08StepDef.user_selects_language(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116933600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects Currency \"TRY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TRY\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.TC08StepDef.user_selects_currency(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5649759800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies that the page is loaded with the correct region option \"TL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TL\"",
+                  "offset": 69
+                }
+              ],
+              "location": "stepDefinition.TC08StepDef.userVerifiesThatThePageIsLoadedWithTheCorrectRegionOption(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@parallel2"
+          }
+        ]
+      }
+    ],
+    "name": "Location test",
+    "description": "",
+    "id": "location-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TC08.feature",
+    "tags": [
+      {
+        "name": "@parallel2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

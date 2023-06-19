@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="59.595">
+    <testcase classname="Sign in" name="positive sign in" time="15.31">
+        <system-out>
+            <![CDATA[Given user goes to base url.................................................passed
+And user clicks to sign in button...........................................passed
+And user clicks email area and enters valid email adress....................passed
+And user enters valid password..............................................passed
+And user clicks sign in.....................................................passed
+Then user verifies that sees your profile...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Sign in" name="negative sign in" time="17.327">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class='wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin']&quot;}&#10;  (Session info: chrome=99.0.4844.74)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'DESKTOP-CVRR6RD', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [4ab5798416bd6df4c82badcfec1dbf82, findElement {using=xpath, value=//button[@class='wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin']}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\niluf\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60920/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4ab5798416bd6df4c82badcfec1dbf82" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given user goes to base url.................................................passed
+And user clicks to sign in button...........................................failed
+And user clicks email area and enters valid email adress....................skipped
+And user enters invalid password............................................skipped
+And user clicks sign in.....................................................skipped
+Then user verifies that sees fail message...................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-CVRR6RD', ip: '192.168.1.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ab5798416bd6df4c82badcfec1dbf82, findElement {using=xpath, value=//button[@class='wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\niluf\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60920/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ab5798416bd6df4c82badcfec1dbf82
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at stepDefinition.TC01StepDef.userClicksToSignInButton(TC01StepDef.java:23)
+	at ✽.user clicks to sign in button(file:///C:/Users/niluf/IdeaProjects/CapstoneProject/src/test/resources/TC01.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Search testing" name="search" time="9.86">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given user goes to base url.................................................passed
+And clicks search text area and sends "samsung" for searching...............passed
+Then the user verifies that all listed records contain the "samsung"........failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinition.TC02StepDef.theUserVerifiesThatAllListedRecordsContainThe(TC02StepDef.java:29)
+	at ✽.the user verifies that all listed records contain the "samsung"(file:///C:/Users/niluf/IdeaProjects/CapstoneProject/src/test/resources/TC02.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Sorting Test" name="user can sort products" time="16.555">
+        <failure message="For input string: &quot;1,945.56&quot;" type="java.lang.NumberFormatException">
+            <![CDATA[Given user goes to base url.................................................passed
+And clicks search text area and sends "samsung" for searching...............passed
+And user selects "Lowest Price" sort filter ascending by product listed.....passed
+Then user verifies that products aren't listed in ascending order...........failed
+
+StackTrace:
+java.lang.NumberFormatException: For input string: "1,945.56"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at stepDefinition.TC04StepDef.userVerifiesThatProductsArenTListedInAscendingOrder(TC04StepDef.java:32)
+	at ✽.user verifies that products aren't listed in ascending order(file:///C:/Users/niluf/IdeaProjects/CapstoneProject/src/test/resources/TC04.feature:7)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

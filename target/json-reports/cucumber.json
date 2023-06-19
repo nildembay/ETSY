@@ -1,0 +1,396 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8443784400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to base url",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userGoesToBaseUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126927600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks to sign in button",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userClicksToSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1179323500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks email area and enters valid email adress",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userClicksEmailAreaAndEntersValidEmailAdress()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-19T21:09:25.022Z",
+        "line": 9,
+        "name": "positive sign in",
+        "description": "",
+        "id": "sign-in;positive-sign-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152912100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters valid password",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userEntersValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287835600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks sign in",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userClicksSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5014489800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user verifies that sees your profile",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userVerifiesThatSeesYourProfile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2230720600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to base url",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userGoesToBaseUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class\u003d\u0027wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin\u0027]\"}\n  (Session info: chrome\u003d99.0.4844.74)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027DESKTOP-CVRR6RD\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4ab5798416bd6df4c82badcfec1dbf82, findElement {using\u003dxpath, value\u003d//button[@class\u003d\u0027wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\niluf\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60920/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4ab5798416bd6df4c82badcfec1dbf82\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy21.click(Unknown Source)\r\n\tat stepDefinition.TC01StepDef.userClicksToSignInButton(TC01StepDef.java:23)\r\n\tat ✽.user clicks to sign in button(file:///C:/Users/niluf/IdeaProjects/CapstoneProject/src/test/resources/TC01.feature:6)\r\n",
+              "duration": 15075376500,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user clicks to sign in button",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userClicksToSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks email area and enters valid email adress",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userClicksEmailAreaAndEntersValidEmailAdress()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-19T21:09:40.382Z",
+        "line": 14,
+        "name": "negative sign in",
+        "description": "",
+        "id": "sign-in;negative-sign-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enters invalid password",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userEntersInvalidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user clicks sign in",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userClicksSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user verifies that sees fail message",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userVerifiesThatSeesFailMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Sign in",
+    "description": "",
+    "id": "sign-in",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TC01.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-19T21:09:57.781Z",
+        "line": 3,
+        "name": "search",
+        "description": "",
+        "id": "search-testing;search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2184380000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to base url",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userGoesToBaseUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5861306300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicks search text area and sends \"samsung\" for searching",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samsung\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.TC02StepDef.clicksSearchTextAreaAndSendsForSearching(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepDefinition.TC02StepDef.theUserVerifiesThatAllListedRecordsContainThe(TC02StepDef.java:29)\r\n\tat ✽.the user verifies that all listed records contain the \"samsung\"(file:///C:/Users/niluf/IdeaProjects/CapstoneProject/src/test/resources/TC02.feature:6)\r\n",
+              "duration": 1809900500,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "the user verifies that all listed records contain the \"samsung\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samsung\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinition.TC02StepDef.theUserVerifiesThatAllListedRecordsContainThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Search testing",
+    "description": "",
+    "id": "search-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TC02.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-19T21:10:07.662Z",
+        "line": 3,
+        "name": "user can sort products",
+        "description": "",
+        "id": "sorting-test;user-can-sort-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1684629600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to base url",
+            "match": {
+              "location": "stepDefinition.TC01StepDef.userGoesToBaseUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7013950400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicks search text area and sends \"samsung\" for searching",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samsung\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.TC02StepDef.clicksSearchTextAreaAndSendsForSearching(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2718442300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects \"Lowest Price\" sort filter ascending by product listed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lowest Price\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.TC04StepDef.userSelectsSortFilterAscendingByProductListed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NumberFormatException: For input string: \"1,945.56\"\r\n\tat java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)\r\n\tat java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)\r\n\tat java.base/java.lang.Double.parseDouble(Double.java:543)\r\n\tat stepDefinition.TC04StepDef.userVerifiesThatProductsArenTListedInAscendingOrder(TC04StepDef.java:32)\r\n\tat ✽.user verifies that products aren\u0027t listed in ascending order(file:///C:/Users/niluf/IdeaProjects/CapstoneProject/src/test/resources/TC04.feature:7)\r\n",
+              "duration": 5129595200,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user verifies that products aren\u0027t listed in ascending order",
+            "match": {
+              "location": "stepDefinition.TC04StepDef.userVerifiesThatProductsArenTListedInAscendingOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Sorting Test",
+    "description": "",
+    "id": "sorting-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/TC04.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
